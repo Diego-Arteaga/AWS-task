@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Mis Tareas</h2>
+        <button id="logoutButton">Cerrar Sesión</button>
+        
+        <div class="task-form">
+            <input type="text" id="taskTitle" placeholder="Título de la Tarea" required>
+            <textarea id="taskDescription" placeholder="Descripción de la Tarea"></textarea>
+            <button id="addTaskButton">Agregar Tarea</button>
+        </div>
+
+        <div id="tasksList"></div>
+    </div>
+    <script src="scripts/tasks.js"></script>
+</body>
+</html>
